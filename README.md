@@ -28,3 +28,8 @@ We then dropped some columns like "month_numerical", "months", "X" and "Y" that 
 # 6. Modeling
 Finally we being our Machine Learning modeling. While utilizing the Linear Regression we also decide to use Standard Scaling as our variables each possess different metrics for their measuring. However upon reviewing our R squared of 0.05588399328978311 and Mean Squared Error of 81.56626421961893 we decided to look more into what kind of predictions it gave.
 
+![Alt text](image-2.png)
+
+We then raise the hypothesis of the data set having perhaps too much noise so we try to run our modeling with less variables that demonstrated stronger correlations with the target variable. However the R squared score seemed to be diminishe: 0.017138344812520967. As we observe these results together with the visual representation we get to understand that the linear regression model may be unfit for the prediction of the area burned by forest fires and the variables may have non linear correlations between each other and with the target variable.
+
+![Alt text](image-3.png)
