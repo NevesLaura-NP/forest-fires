@@ -33,3 +33,10 @@ Finally we being our Machine Learning modeling. While utilizing the Linear Regre
 We then raise the hypothesis of the data set having perhaps too much noise so we try to run our modeling with less variables that demonstrated stronger correlations with the target variable. However the R squared score seemed to be diminishe: 0.017138344812520967. As we observe these results together with the visual representation we get to understand that the linear regression model may be unfit for the prediction of the area burned by forest fires and the variables may have non linear correlations between each other and with the target variable.
 
 ![Alt text](image-3.png)
+
+# 7. Further Improvements and Research
+
+We currently seem to be dealing with a complex data set that can observe other types of moduling and Machine Learning methods. We will be looking for further ways to improve the R squared score and be research about new upcoming methodologies that can deal with metereological data with more accuracy.
+
+# 8. Credits
+Thank you to the developers of the sci-kit learn pacakage and pandas. Thank you for the data analyst and developer Sabrina Santana for working in this project with me. Thank you The Knowledge House for all the knowledge given to the completion of this project.
