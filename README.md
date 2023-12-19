@@ -14,12 +14,12 @@ We however decided to keep the "month" column to take into account seasonality. 
 # 4. EDA
 One interesting fact about our data is that our target demonstrates great ammounts of 0.0 values creating a big ammount of outliers. 
 
-(![Alt text](area_output.png))
-![Alt text](image.png)
+![Alt text](images/area_output.png)
+![Alt text](images/img.png)
 
 As we can still pre process the data we decided to take a further look into potential correlations between the variables. We could find that area had a greater positive correlation to area burned than the other variables.
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 # 5. Pre Processing
 After the further analysis of the data we decide to deal with the outliers problem running a z-score of each variable and testing the threasholds to eliminate the outliers we ran that for each column we would like to use while also keeping some numbers of outliers so some columns wouldn't become too small.
@@ -29,11 +29,11 @@ We then dropped some columns like "month_numerical", "months", "X" and "Y" that 
 # 6. Modeling
 Finally we being our Machine Learning modeling. While utilizing the Linear Regression we also decide to use Standard Scaling as our variables each possess different metrics for their measuring. However upon reviewing our R squared of 0.05588399328978311 and Mean Squared Error of 81.56626421961893 we decided to look more into what kind of predictions it gave.
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 We then raise the hypothesis of the data set having perhaps too much noise so we try to run our modeling with less variables that demonstrated stronger correlations with the target variable. However the R squared score seemed to be diminishe: 0.017138344812520967. As we observe these results together with the visual representation we get to understand that the linear regression model may be unfit for the prediction of the area burned by forest fires and the variables may have non linear correlations between each other and with the target variable.
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
 # 7. Further Improvements and Research
 
